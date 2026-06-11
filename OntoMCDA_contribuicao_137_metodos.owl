@@ -1,0 +1,2501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns="http://www.ontomcda.org/onto#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#PROMETHEE_II">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeSuperacao"/>
+    <rdfs:label xml:lang="pt">PROMETHEE II</rdfs:label>
+    <nomeOriginalTabela22>PROMETHEE II</nomeOriginalTabela22>
+    <familiaTabela22>Sobreclassificacao</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema>
+      <TipoDeProblema rdf:about="http://www.ontomcda.org/onto#Escolha">
+        <rdfs:label xml:lang="pt">Escolha</rdfs:label>
+      </TipoDeProblema>
+    </temTipoDeProblema>
+    <temTipoDeProblema>
+      <TipoDeProblema rdf:about="http://www.ontomcda.org/onto#Ordenacao">
+        <rdfs:label xml:lang="pt">Ordenação</rdfs:label>
+      </TipoDeProblema>
+    </temTipoDeProblema>
+    <temCompensatoriedade>
+      <Compensatoriedade rdf:about="http://www.ontomcda.org/onto#ParcialmenteCompensatorio">
+        <rdfs:label xml:lang="pt">Parcialmente compensatório</rdfs:label>
+      </Compensatoriedade>
+    </temCompensatoriedade>
+    <temTipoDeVariavel>
+      <TipoDeVariavel rdf:about="http://www.ontomcda.org/onto#Ordinal">
+        <rdfs:label xml:lang="pt">Ordinal</rdfs:label>
+      </TipoDeVariavel>
+    </temTipoDeVariavel>
+    <temMonotonicidade>
+      <Monotonicidade rdf:about="http://www.ontomcda.org/onto#Monotonico">
+        <rdfs:label xml:lang="pt">Monotônico</rdfs:label>
+      </Monotonicidade>
+    </temMonotonicidade>
+    <temMonotonicidade>
+      <Monotonicidade rdf:about="http://www.ontomcda.org/onto#MonotonicidadeFraca">
+        <rdfs:label xml:lang="pt">Monotonicidade fraca</rdfs:label>
+        <rdfs:comment xml:lang="pt">Categoria incluída para representar explicitamente o valor presente na Tabela 22.</rdfs:comment>
+      </Monotonicidade>
+    </temMonotonicidade>
+    <temEstruturaDecisoria>
+      <EstruturaDecisoria rdf:about="http://www.ontomcda.org/onto#Monodecisor">
+        <rdfs:label xml:lang="pt">Monodecisor</rdfs:label>
+      </EstruturaDecisoria>
+    </temEstruturaDecisoria>
+    <temEstruturaDecisoria>
+      <EstruturaDecisoria rdf:about="http://www.ontomcda.org/onto#Multidecisor">
+        <rdfs:label xml:lang="pt">Multidecisor</rdfs:label>
+      </EstruturaDecisoria>
+    </temEstruturaDecisoria>
+    <temAmbienteDeDecisao>
+      <AmbienteDeDecisao rdf:about="http://www.ontomcda.org/onto#Certeza">
+        <rdfs:label xml:lang="pt">Certeza</rdfs:label>
+      </AmbienteDeDecisao>
+    </temAmbienteDeDecisao>
+    <temCompletudePref>
+      <CompletudePref rdf:about="http://www.ontomcda.org/onto#Parcial">
+        <rdfs:label xml:lang="pt">Parcial</rdfs:label>
+      </CompletudePref>
+    </temCompletudePref>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#PAMSSEM_II">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeClassificacao"/>
+    <rdfs:label xml:lang="pt">PAMSSEM_II</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema>
+      <TipoDeProblema rdf:about="http://www.ontomcda.org/onto#Classificacao">
+        <rdfs:label xml:lang="pt">Classificação</rdfs:label>
+      </TipoDeProblema>
+    </temTipoDeProblema>
+    <temCompensatoriedade>
+      <Compensatoriedade rdf:about="http://www.ontomcda.org/onto#NaoCompensatorio">
+        <rdfs:label xml:lang="pt">Não compensatório</rdfs:label>
+      </Compensatoriedade>
+    </temCompensatoriedade>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temMonotonicidade>
+      <Monotonicidade rdf:about="http://www.ontomcda.org/onto#NaoMonotonico">
+        <rdfs:label xml:lang="pt">Não monotônico</rdfs:label>
+      </Monotonicidade>
+    </temMonotonicidade>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref>
+      <CompletudePref rdf:about="http://www.ontomcda.org/onto#Incompleta">
+        <rdfs:label xml:lang="pt">Incompleta</rdfs:label>
+      </CompletudePref>
+    </temCompletudePref>
+    <nomeOriginalTabela22>PAMSSEM_II</nomeOriginalTabela22>
+    <familiaTabela22>Classificação</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>Classificacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#SAPEVO_M">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoHibrido"/>
+    <rdfs:label xml:lang="pt">SAPEVO-M</rdfs:label>
+    <nomeOriginalTabela22>SAPEVO-M</nomeOriginalTabela22>
+    <familiaTabela22>Ordinal hibrido</familiaTabela22>
+    <ponderacaoTabela22>Comparacao par-a-par</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade>
+      <Compensatoriedade rdf:about="http://www.ontomcda.org/onto#Compensatorio">
+        <rdfs:label xml:lang="pt">Compensatório</rdfs:label>
+      </Compensatoriedade>
+    </temCompensatoriedade>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref>
+      <CompletudePref rdf:about="http://www.ontomcda.org/onto#Completa">
+        <rdfs:label xml:lang="pt">Completa</rdfs:label>
+      </CompletudePref>
+    </temCompletudePref>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#WADD_ModeloAditivoPonderado">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeUtilidade"/>
+    <rdfs:label xml:lang="pt">WADD / Modelo aditivo ponderado</rdfs:label>
+    <nomeOriginalTabela22>WADD / Modelo aditivo ponderado</nomeOriginalTabela22>
+    <familiaTabela22>Soma aditiva</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel>
+      <TipoDeVariavel rdf:about="http://www.ontomcda.org/onto#Cardinal">
+        <rdfs:label xml:lang="pt">Cardinal</rdfs:label>
+      </TipoDeVariavel>
+    </temTipoDeVariavel>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#ANPSort">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDePonderacao"/>
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeClassificacao"/>
+    <rdfs:label xml:lang="pt">ANPSort</rdfs:label>
+    <nomeOriginalTabela22>ANPSort</nomeOriginalTabela22>
+    <familiaTabela22>Redes</familiaTabela22>
+    <ponderacaoTabela22>Comparacao par-a-par</ponderacaoTabela22>
+    <grupoTabela22>Classificacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Classificacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#Compromise_Programming">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeDistancia"/>
+    <rdfs:label xml:lang="pt">Compromise Programming</rdfs:label>
+    <nomeOriginalTabela22>Compromise Programming</nomeOriginalTabela22>
+    <familiaTabela22>Compromisso</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#ParcialmenteCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Parcial"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#UTASTAR">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeUtilidade"/>
+    <rdfs:label xml:lang="pt">UTASTAR</rdfs:label>
+    <nomeOriginalTabela22>UTASTAR</nomeOriginalTabela22>
+    <familiaTabela22>Utilidade</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#AHPSort">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDePonderacao"/>
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeClassificacao"/>
+    <rdfs:label xml:lang="pt">AHPSort</rdfs:label>
+    <nomeOriginalTabela22>AHPSort</nomeOriginalTabela22>
+    <familiaTabela22>Hierarquico</familiaTabela22>
+    <ponderacaoTabela22>Comparacao par-a-par</ponderacaoTabela22>
+    <grupoTabela22>Classificacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Classificacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#SMAA_TRI">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoHibrido"/>
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeClassificacao"/>
+    <rdfs:label xml:lang="pt">SMAA-TRI</rdfs:label>
+    <nomeOriginalTabela22>SMAA-TRI</nomeOriginalTabela22>
+    <familiaTabela22>Estocastico</familiaTabela22>
+    <ponderacaoTabela22>Pesos implicitos</ponderacaoTabela22>
+    <grupoTabela22>Classificacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Classificacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel>
+      <TipoDeVariavel rdf:about="http://www.ontomcda.org/onto#Mista">
+        <rdfs:label xml:lang="pt">Mista</rdfs:label>
+      </TipoDeVariavel>
+    </temTipoDeVariavel>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao>
+      <AmbienteDeDecisao rdf:about="http://www.ontomcda.org/onto#Incerteza">
+        <rdfs:label xml:lang="pt">Incerteza</rdfs:label>
+      </AmbienteDeDecisao>
+    </temAmbienteDeDecisao>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Incompleta"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#REGIME">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeSuperacao"/>
+    <rdfs:label xml:lang="pt">REGIME</rdfs:label>
+    <nomeOriginalTabela22>REGIME</nomeOriginalTabela22>
+    <familiaTabela22>Sobreclassificacao</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#NaoMonotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Incompleta"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#Fuzzy_COPRAS">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoFuzzy"/>
+    <rdfs:label xml:lang="pt">Fuzzy COPRAS</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel>
+      <TipoDeVariavel rdf:about="http://www.ontomcda.org/onto#CardinalFuzzy">
+        <rdfs:label xml:lang="pt">Cardinal fuzzy</rdfs:label>
+      </TipoDeVariavel>
+    </temTipoDeVariavel>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Incerteza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>Fuzzy COPRAS</nomeOriginalTabela22>
+    <familiaTabela22>Fuzzy</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#BWM_TOPSIS">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoHibrido"/>
+    <rdfs:label xml:lang="pt">BWM--TOPSIS</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>BWM--TOPSIS</nomeOriginalTabela22>
+    <familiaTabela22>Híbrido</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#Dodgson">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeVotacao"/>
+    <rdfs:label xml:lang="pt">Dodgson</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#NaoMonotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Incompleta"/>
+    <nomeOriginalTabela22>Dodgson</nomeOriginalTabela22>
+    <familiaTabela22>Votação</familiaTabela22>
+    <ponderacaoTabela22>Sem ponderação</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#SWARA">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDePonderacao"/>
+    <rdfs:label xml:lang="pt">SWARA</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema>
+      <TipoDeProblema rdf:about="http://www.ontomcda.org/onto#Ponderacao">
+        <rdfs:label xml:lang="pt">Ponderação</rdfs:label>
+        <rdfs:comment xml:lang="pt">Categoria para métodos cujo objetivo principal é ponderar critérios.</rdfs:comment>
+      </TipoDeProblema>
+    </temTipoDeProblema>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>SWARA</nomeOriginalTabela22>
+    <familiaTabela22>Ponderação</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>Ponderacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#Choquet">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeUtilidade"/>
+    <rdfs:label xml:lang="pt">Choquet</rdfs:label>
+    <nomeOriginalTabela22>Choquet</nomeOriginalTabela22>
+    <familiaTabela22>Integral</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#ANP">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDePonderacao"/>
+    <rdfs:label xml:lang="pt">ANP</rdfs:label>
+    <nomeOriginalTabela22>ANP</nomeOriginalTabela22>
+    <familiaTabela22>Redes</familiaTabela22>
+    <ponderacaoTabela22>Comparacao par-a-par</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#PROBID">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeDistancia"/>
+    <rdfs:label xml:lang="pt">PROBID</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método acrescentado como contribuição bibliográfica externa. DOI de referência: 10.1021/acs.iecr.1c01413. Confirmar indexação item a item em Scopus/Web of Science com acesso institucional.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>PROBID</nomeOriginalTabela22>
+    <familiaTabela22>Preference Ranking on the Basis of Ideal-Average Distance</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#CRITIC">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDePonderacao"/>
+    <rdfs:label xml:lang="pt">CRITIC</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ponderacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>CRITIC</nomeOriginalTabela22>
+    <familiaTabela22>Ponderação</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>Ponderacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#Schulze">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeVotacao"/>
+    <rdfs:label xml:lang="pt">Schulze</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#NaoMonotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>Schulze</nomeOriginalTabela22>
+    <familiaTabela22>Votação</familiaTabela22>
+    <ponderacaoTabela22>Sem ponderação</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#PROMETHEE_I">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeSuperacao"/>
+    <rdfs:label xml:lang="pt">PROMETHEE I</rdfs:label>
+    <nomeOriginalTabela22>PROMETHEE I</nomeOriginalTabela22>
+    <familiaTabela22>Sobreclassificacao</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#ParcialmenteCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#MonotonicidadeFraca"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Parcial"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#GRA_TOPSIS">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoFuzzy"/>
+    <rdfs:label xml:lang="pt">GRA--TOPSIS</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Incerteza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>GRA--TOPSIS</nomeOriginalTabela22>
+    <familiaTabela22>Fuzzy</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#SWARA_WASPAS">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoHibrido"/>
+    <rdfs:label xml:lang="pt">SWARA--WASPAS</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>SWARA--WASPAS</nomeOriginalTabela22>
+    <familiaTabela22>Híbrido</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#NAIADE">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeSuperacao"/>
+    <rdfs:label xml:lang="pt">NAIADE</rdfs:label>
+    <nomeOriginalTabela22>NAIADE</nomeOriginalTabela22>
+    <familiaTabela22>Sobreclassificacao</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Mista"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temTipoDeVariavel>
+      <TipoDeVariavel rdf:about="http://www.ontomcda.org/onto#PseudoCardinal">
+        <rdfs:label xml:lang="pt">Pseudo-cardinal</rdfs:label>
+        <rdfs:comment xml:lang="pt">Categoria incluída para representar explicitamente o valor presente na Tabela 22.</rdfs:comment>
+      </TipoDeVariavel>
+    </temTipoDeVariavel>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#NaoMonotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Incerteza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Incompleta"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#SECA">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoHibrido"/>
+    <rdfs:label xml:lang="pt">SECA</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método acrescentado como contribuição bibliográfica externa. DOI de referência: 10.15388/informatica.2018.167. Confirmar indexação item a item em Scopus/Web of Science com acesso institucional.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>SECA</nomeOriginalTabela22>
+    <familiaTabela22>Simultaneous Evaluation of Criteria and Alternatives</familiaTabela22>
+    <ponderacaoTabela22>Ponderacao endogena</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#Condorcet">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeVotacao"/>
+    <rdfs:label xml:lang="pt">Condorcet</rdfs:label>
+    <nomeOriginalTabela22>Condorcet</nomeOriginalTabela22>
+    <familiaTabela22>Votacao</familiaTabela22>
+    <ponderacaoTabela22>Sem ponderacao</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#NaoMonotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Incompleta"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#ARAS">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeDistancia"/>
+    <rdfs:label xml:lang="pt">ARAS</rdfs:label>
+    <nomeOriginalTabela22>ARAS</nomeOriginalTabela22>
+    <familiaTabela22>Razao aditiva</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#TOPSIS_Sort">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeDistancia"/>
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeClassificacao"/>
+    <rdfs:label xml:lang="pt">TOPSIS-Sort</rdfs:label>
+    <nomeOriginalTabela22>TOPSIS-Sort</nomeOriginalTabela22>
+    <familiaTabela22>Distancia</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>Classificacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Classificacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#ELECTRE_III">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeSuperacao"/>
+    <rdfs:label xml:lang="pt">ELECTRE III</rdfs:label>
+    <nomeOriginalTabela22>ELECTRE III</nomeOriginalTabela22>
+    <familiaTabela22>Sobreclassificacao</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#PseudoCardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#NaoMonotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Incompleta"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#ELECTRE_TRInB">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeClassificacao"/>
+    <rdfs:label xml:lang="pt">ELECTRE TRI-nB</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Classificacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#PseudoCardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#NaoMonotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Incompleta"/>
+    <nomeOriginalTabela22>ELECTRE TRI-nB</nomeOriginalTabela22>
+    <familiaTabela22>Classificação</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>Classificacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#Intuitionistic_Fuzzy_TOPSIS">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoFuzzy"/>
+    <rdfs:label xml:lang="pt">Intuitionistic Fuzzy TOPSIS</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#CardinalFuzzy"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Incerteza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>Intuitionistic Fuzzy TOPSIS</nomeOriginalTabela22>
+    <familiaTabela22>Fuzzy</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#AHP_Gaussiano">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDePonderacao"/>
+    <rdfs:label xml:lang="pt">AHP-Gaussiano</rdfs:label>
+    <nomeOriginalTabela22>AHP-Gaussiano</nomeOriginalTabela22>
+    <familiaTabela22>Hierarquico probabilistico</familiaTabela22>
+    <ponderacaoTabela22>Comparacao par-a-par</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Incerteza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#Borda">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeVotacao"/>
+    <rdfs:label xml:lang="pt">Borda</rdfs:label>
+    <nomeOriginalTabela22>Borda</nomeOriginalTabela22>
+    <familiaTabela22>Votacao</familiaTabela22>
+    <ponderacaoTabela22>Sem ponderacao</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#ParcialmenteCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#NaoMonotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Parcial"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#MOORA">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeDistancia"/>
+    <rdfs:label xml:lang="pt">MOORA</rdfs:label>
+    <nomeOriginalTabela22>MOORA</nomeOriginalTabela22>
+    <familiaTabela22>Distancia</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#Weighted_Tchebycheff">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeDistancia"/>
+    <rdfs:label xml:lang="pt">Weighted Tchebycheff</rdfs:label>
+    <nomeOriginalTabela22>Weighted Tchebycheff</nomeOriginalTabela22>
+    <familiaTabela22>Compromisso</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#ParcialmenteCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Parcial"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#SAW_WSM">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeUtilidade"/>
+    <rdfs:label xml:lang="pt">SAW / WSM</rdfs:label>
+    <nomeOriginalTabela22>SAW / WSM</nomeOriginalTabela22>
+    <familiaTabela22>Soma aditiva</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#CODAS">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeDistancia"/>
+    <rdfs:label xml:lang="pt">CODAS</rdfs:label>
+    <nomeOriginalTabela22>CODAS</nomeOriginalTabela22>
+    <familiaTabela22>Distancia combinada</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#IDOCRIW">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDePonderacao"/>
+    <rdfs:label xml:lang="pt">IDOCRIW</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ponderacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>IDOCRIW</nomeOriginalTabela22>
+    <familiaTabela22>Ponderação</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>Ponderacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#PSI">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeUtilidade"/>
+    <rdfs:label xml:lang="pt">PSI</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>PSI</nomeOriginalTabela22>
+    <familiaTabela22>Utilidade</familiaTabela22>
+    <ponderacaoTabela22>Sem ponderação</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#COPRAS">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeDistancia"/>
+    <rdfs:label xml:lang="pt">COPRAS</rdfs:label>
+    <nomeOriginalTabela22>COPRAS</nomeOriginalTabela22>
+    <familiaTabela22>Razao proporcional</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#IRV_RankedChoice">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeVotacao"/>
+    <rdfs:label xml:lang="pt">IRV_RankedChoice</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#NaoMonotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>IRV_RankedChoice</nomeOriginalTabela22>
+    <familiaTabela22>Votação</familiaTabela22>
+    <ponderacaoTabela22>Sem ponderação</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#UTA">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeUtilidade"/>
+    <rdfs:label xml:lang="pt">UTA</rdfs:label>
+    <nomeOriginalTabela22>UTA</nomeOriginalTabela22>
+    <familiaTabela22>Utilidade</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#Simpson_Minimax">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeVotacao"/>
+    <rdfs:label xml:lang="pt">Simpson_Minimax</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#NaoMonotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>Simpson_Minimax</nomeOriginalTabela22>
+    <familiaTabela22>Votação</familiaTabela22>
+    <ponderacaoTabela22>Sem ponderação</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#ELECTRE_I">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeSuperacao"/>
+    <rdfs:label xml:lang="pt">ELECTRE I</rdfs:label>
+    <nomeOriginalTabela22>ELECTRE I</nomeOriginalTabela22>
+    <familiaTabela22>Sobreclassificacao</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Mista"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#PseudoCardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#NaoMonotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Incompleta"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#TOPSIS_Variantes">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeDistancia"/>
+    <rdfs:label xml:lang="pt">TOPSIS (variantes)</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Incerteza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>TOPSIS (variantes)</nomeOriginalTabela22>
+    <familiaTabela22>Distância</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#SPOTIS">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeDistancia"/>
+    <rdfs:label xml:lang="pt">SPOTIS</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método acrescentado como contribuição bibliográfica externa. DOI de referência: 10.37190/ord240313. Confirmar indexação item a item em Scopus/Web of Science com acesso institucional.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>SPOTIS</nomeOriginalTabela22>
+    <familiaTabela22>Stable Preference Ordering Towards Ideal Solution</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#AHP_Gaussiano_PSK">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDePonderacao"/>
+    <rdfs:label xml:lang="pt">AHP-Gaussiano PSK</rdfs:label>
+    <nomeOriginalTabela22>AHP-Gaussiano PSK</nomeOriginalTabela22>
+    <familiaTabela22>Hierarquico probabilistico</familiaTabela22>
+    <ponderacaoTabela22>Derivacao indireta / estatistica</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Incerteza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#WPM">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeUtilidade"/>
+    <rdfs:label xml:lang="pt">WPM</rdfs:label>
+    <nomeOriginalTabela22>WPM</nomeOriginalTabela22>
+    <familiaTabela22>Produto ponderado</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#LINMAP">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeDistancia"/>
+    <rdfs:label xml:lang="pt">LINMAP</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>LINMAP</nomeOriginalTabela22>
+    <familiaTabela22>Distância</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#FITradeoff">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeUtilidade"/>
+    <rdfs:label xml:lang="pt">FITradeoff</rdfs:label>
+    <nomeOriginalTabela22>FITradeoff</nomeOriginalTabela22>
+    <familiaTabela22>Trade-off flexivel</familiaTabela22>
+    <ponderacaoTabela22>Comparacao par-a-par</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#ELECTRE_TRI">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeClassificacao"/>
+    <rdfs:label xml:lang="pt">ELECTRE_TRI</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Classificacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#PseudoCardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#NaoMonotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Incompleta"/>
+    <nomeOriginalTabela22>ELECTRE_TRI</nomeOriginalTabela22>
+    <familiaTabela22>Classificação</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>Classificacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#WASPAS">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoHibrido"/>
+    <rdfs:label xml:lang="pt">WASPAS</rdfs:label>
+    <nomeOriginalTabela22>WASPAS</nomeOriginalTabela22>
+    <familiaTabela22>Hibrido aditivo/produto</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#MULTIMOORA">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeDistancia"/>
+    <rdfs:label xml:lang="pt">MULTIMOORA</rdfs:label>
+    <nomeOriginalTabela22>MULTIMOORA</nomeOriginalTabela22>
+    <familiaTabela22>Distancia</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#MELCHIOR">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeSuperacao"/>
+    <rdfs:label xml:lang="pt">MELCHIOR</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#NaoMonotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Incompleta"/>
+    <nomeOriginalTabela22>MELCHIOR</nomeOriginalTabela22>
+    <familiaTabela22>Sobreclassificação</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#ELECTRE_Sort">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeSuperacao"/>
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeClassificacao"/>
+    <rdfs:label xml:lang="pt">ELECTRE-Sort</rdfs:label>
+    <nomeOriginalTabela22>ELECTRE-Sort</nomeOriginalTabela22>
+    <familiaTabela22>Sobreclassificacao</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>Classificacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Classificacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Mista"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#PseudoCardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#NaoMonotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Incompleta"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#UTADIS">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeUtilidade"/>
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeClassificacao"/>
+    <rdfs:label xml:lang="pt">UTADIS</rdfs:label>
+    <nomeOriginalTabela22>UTADIS</nomeOriginalTabela22>
+    <familiaTabela22>Utilidade</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>Classificacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Classificacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#DRSA">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeClassificacao"/>
+    <rdfs:label xml:lang="pt">DRSA (Dominance-based Rough Set Approach)</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Classificacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#NaoMonotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Incerteza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Incompleta"/>
+    <nomeOriginalTabela22>DRSA (Dominance-based Rough Set Approach)</nomeOriginalTabela22>
+    <familiaTabela22>Classificação</familiaTabela22>
+    <ponderacaoTabela22>Sem ponderação</ponderacaoTabela22>
+    <grupoTabela22>Classificacao</grupoTabela22>
+  </MetodoMCDA>
+  <owl:ObjectProperty rdf:about="http://www.ontomcda.org/onto#defineCriterio">
+    <rdfs:domain rdf:resource="http://www.ontomcda.org/onto#ProblemaDecisao"/>
+    <rdfs:range rdf:resource="http://www.ontomcda.org/onto#Criterio"/>
+    <rdfs:label xml:lang="pt">define critério</rdfs:label>
+    <rdfs:comment xml:lang="pt">Relaciona um problema de decisão aos critérios utilizados em sua avaliação.</rdfs:comment>
+  </owl:ObjectProperty>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#SMART">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeUtilidade"/>
+    <rdfs:label xml:lang="pt">SMART</rdfs:label>
+    <nomeOriginalTabela22>SMART</nomeOriginalTabela22>
+    <familiaTabela22>Utilidade simplificada</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#AHP">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDePonderacao"/>
+    <rdfs:label xml:lang="pt">AHP</rdfs:label>
+    <nomeOriginalTabela22>AHP</nomeOriginalTabela22>
+    <familiaTabela22>Hierarquico</familiaTabela22>
+    <ponderacaoTabela22>Comparacao par-a-par</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#VIKOR">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeDistancia"/>
+    <rdfs:label xml:lang="pt">VIKOR</rdfs:label>
+    <nomeOriginalTabela22>VIKOR</nomeOriginalTabela22>
+    <familiaTabela22>Compromisso</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#ParcialmenteCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Parcial"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#WISP">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoHibrido"/>
+    <rdfs:label xml:lang="pt">WISP</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método acrescentado como contribuição bibliográfica externa. DOI de referência: 10.1109/tem.2021.3075783. Confirmar indexação item a item em Scopus/Web of Science com acesso institucional.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>WISP</nomeOriginalTabela22>
+    <familiaTabela22>Integrated Simple Weighted Sum Product</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#MAIRCA">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeDistancia"/>
+    <rdfs:label xml:lang="pt">MAIRCA</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>MAIRCA</nomeOriginalTabela22>
+    <familiaTabela22>Distância</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <owl:ObjectProperty rdf:about="http://www.ontomcda.org/onto#temAmbienteDeDecisao">
+    <rdfs:domain rdf:resource="http://www.ontomcda.org/onto#MetodoMCDA"/>
+    <rdfs:range rdf:resource="http://www.ontomcda.org/onto#AmbienteDeDecisao"/>
+    <rdfs:label xml:lang="pt">temAmbienteDeDecisao</rdfs:label>
+  </owl:ObjectProperty>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#SAPEVO">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoHibrido"/>
+    <rdfs:label xml:lang="pt">SAPEVO</rdfs:label>
+    <nomeOriginalTabela22>SAPEVO</nomeOriginalTabela22>
+    <familiaTabela22>Ordinal hibrido</familiaTabela22>
+    <ponderacaoTabela22>Comparacao par-a-par</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#AHP_TOPSIS_2N">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoHibrido"/>
+    <rdfs:label xml:lang="pt">AHP--TOPSIS--2N</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>AHP--TOPSIS--2N</nomeOriginalTabela22>
+    <familiaTabela22>Híbrido</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#Kemeny_Young">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeVotacao"/>
+    <rdfs:label xml:lang="pt">Kemeny_Young</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#NaoMonotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>Kemeny_Young</nomeOriginalTabela22>
+    <familiaTabela22>Votação</familiaTabela22>
+    <ponderacaoTabela22>Sem ponderação</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#FlowSort">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeSuperacao"/>
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeClassificacao"/>
+    <rdfs:label xml:lang="pt">FlowSort</rdfs:label>
+    <nomeOriginalTabela22>FlowSort</nomeOriginalTabela22>
+    <familiaTabela22>Sobreclassificacao</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>Classificacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Classificacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#ParcialmenteCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#MonotonicidadeFraca"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Parcial"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#MABAC">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeDistancia"/>
+    <rdfs:label xml:lang="pt">MABAC</rdfs:label>
+    <nomeOriginalTabela22>MABAC</nomeOriginalTabela22>
+    <familiaTabela22>Distancia por fronteira</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#SAPEVO_M_NC">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoHibrido"/>
+    <rdfs:label xml:lang="pt">SAPEVO-M-NC</rdfs:label>
+    <nomeOriginalTabela22>SAPEVO-M-NC</nomeOriginalTabela22>
+    <familiaTabela22>Ordinal hibrido</familiaTabela22>
+    <ponderacaoTabela22>Comparacao par-a-par</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Incompleta"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#ELECTRE_IS">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeSuperacao"/>
+    <rdfs:label xml:lang="pt">ELECTRE_IS</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#PseudoCardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#NaoMonotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Incompleta"/>
+    <nomeOriginalTabela22>ELECTRE_IS</nomeOriginalTabela22>
+    <familiaTabela22>Sobreclassificação</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#MEREC">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDePonderacao"/>
+    <rdfs:label xml:lang="pt">MEREC</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ponderacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>MEREC</nomeOriginalTabela22>
+    <familiaTabela22>Ponderação</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>Ponderacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#SMAA_2">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeSuperacao"/>
+    <rdfs:label xml:lang="pt">SMAA-2</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Mista"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Incerteza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Incompleta"/>
+    <nomeOriginalTabela22>SMAA-2</nomeOriginalTabela22>
+    <familiaTabela22>Sobreclassificação</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#Entropia">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDePonderacao"/>
+    <rdfs:label xml:lang="pt">Entropia</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ponderacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>Entropia</nomeOriginalTabela22>
+    <familiaTabela22>Ponderação</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>Ponderacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#MAUT_MAVT">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeUtilidade"/>
+    <rdfs:label xml:lang="pt">MAUT / MAVT</rdfs:label>
+    <nomeOriginalTabela22>MAUT / MAVT</nomeOriginalTabela22>
+    <familiaTabela22>Utilidade</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta / trade-offs</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#Rough_IF_AHP">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoFuzzy"/>
+    <rdfs:label xml:lang="pt">Rough/IF AHP</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Mista"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Incerteza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>Rough/IF AHP</nomeOriginalTabela22>
+    <familiaTabela22>Fuzzy</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#Rough_TOPSIS">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoFuzzy"/>
+    <rdfs:label xml:lang="pt">Rough TOPSIS</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Incerteza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>Rough TOPSIS</nomeOriginalTabela22>
+    <familiaTabela22>Fuzzy</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#TOPSIS_Classico">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeDistancia"/>
+    <rdfs:label xml:lang="pt">TOPSIS (clássico)</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>TOPSIS (clássico)</nomeOriginalTabela22>
+    <familiaTabela22>Distância</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#ELECTRE_IVH">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeSuperacao"/>
+    <rdfs:label xml:lang="pt">ELECTRE IV-H</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#PseudoCardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#NaoMonotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Incompleta"/>
+    <nomeOriginalTabela22>ELECTRE IV-H</nomeOriginalTabela22>
+    <familiaTabela22>Sobreclassificação</familiaTabela22>
+    <ponderacaoTabela22>Sem ponderação</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#Fuzzy_TOPSIS">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoFuzzy"/>
+    <rdfs:label xml:lang="pt">Fuzzy TOPSIS</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#CardinalFuzzy"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Incerteza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>Fuzzy TOPSIS</nomeOriginalTabela22>
+    <familiaTabela22>Fuzzy</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#LBWA">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDePonderacao"/>
+    <rdfs:label xml:lang="pt">LBWA</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ponderacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>LBWA</nomeOriginalTabela22>
+    <familiaTabela22>Ponderação</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>Ponderacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#TOPSIS">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeDistancia"/>
+    <rdfs:label xml:lang="pt">TOPSIS</rdfs:label>
+    <nomeOriginalTabela22>TOPSIS</nomeOriginalTabela22>
+    <familiaTabela22>Distancia</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#PROMETHEE_IV">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeSuperacao"/>
+    <rdfs:label xml:lang="pt">PROMETHEE_IV</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#ParcialmenteCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#MonotonicidadeFraca"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>PROMETHEE_IV</nomeOriginalTabela22>
+    <familiaTabela22>Sobreclassificação</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#CILOS">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDePonderacao"/>
+    <rdfs:label xml:lang="pt">CILOS</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ponderacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>CILOS</nomeOriginalTabela22>
+    <familiaTabela22>Ponderação</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>Ponderacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#PIV">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeDistancia"/>
+    <rdfs:label xml:lang="pt">PIV</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método acrescentado como contribuição bibliográfica externa. DOI de referência: 10.1016/j.cie.2018.03.045. Confirmar indexação item a item em Scopus/Web of Science com acesso institucional.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>PIV</nomeOriginalTabela22>
+    <familiaTabela22>Proximity Indexed Value</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#FUCOM">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDePonderacao"/>
+    <rdfs:label xml:lang="pt">FUCOM</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ponderacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>FUCOM</nomeOriginalTabela22>
+    <familiaTabela22>Ponderação</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>Ponderacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#EVAMIX">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeSuperacao"/>
+    <rdfs:label xml:lang="pt">EVAMIX</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#ParcialmenteCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Mista"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>EVAMIX</nomeOriginalTabela22>
+    <familiaTabela22>Sobreclassificação</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#CBA">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeUtilidade"/>
+    <rdfs:label xml:lang="pt">Choosing By Advantages (CBA)</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>Choosing By Advantages (CBA)</nomeOriginalTabela22>
+    <familiaTabela22>Utilidade</familiaTabela22>
+    <ponderacaoTabela22>Sem ponderação</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#Fuzzy_AHP">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoFuzzy"/>
+    <rdfs:label xml:lang="pt">Fuzzy AHP</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#CardinalFuzzy"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Incerteza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>Fuzzy AHP</nomeOriginalTabela22>
+    <familiaTabela22>Fuzzy</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#PROMETHEE_GDSS">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeSuperacao"/>
+    <rdfs:label xml:lang="pt">PROMETHEE GDSS (grupo)</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#ParcialmenteCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Mista"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#MonotonicidadeFraca"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>PROMETHEE GDSS (grupo)</nomeOriginalTabela22>
+    <familiaTabela22>Sobreclassificação</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#Hesitant_Fuzzy_TOPSIS">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoFuzzy"/>
+    <rdfs:label xml:lang="pt">Hesitant Fuzzy TOPSIS</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#CardinalFuzzy"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Incerteza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>Hesitant Fuzzy TOPSIS</nomeOriginalTabela22>
+    <familiaTabela22>Fuzzy</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#Spherical_Fuzzy_MCDA">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoFuzzy"/>
+    <rdfs:label xml:lang="pt">Spherical Fuzzy MCDA</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#CardinalFuzzy"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Incerteza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>Spherical Fuzzy MCDA</nomeOriginalTabela22>
+    <familiaTabela22>Fuzzy</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#ELECTRE_V">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeSuperacao"/>
+    <rdfs:label xml:lang="pt">ELECTRE_V</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#PseudoCardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#NaoMonotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Incompleta"/>
+    <nomeOriginalTabela22>ELECTRE_V</nomeOriginalTabela22>
+    <familiaTabela22>Sobreclassificação</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#COMET">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeUtilidade"/>
+    <rdfs:label xml:lang="pt">COMET</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>COMET</nomeOriginalTabela22>
+    <familiaTabela22>Utilidade</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <owl:ObjectProperty rdf:about="http://www.ontomcda.org/onto#temMonotonicidade">
+    <rdfs:domain rdf:resource="http://www.ontomcda.org/onto#MetodoMCDA"/>
+    <rdfs:range rdf:resource="http://www.ontomcda.org/onto#Monotonicidade"/>
+    <rdfs:label xml:lang="pt">temMonotonicidade</rdfs:label>
+  </owl:ObjectProperty>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#MINMAX_MinimaxRegret">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeDistancia"/>
+    <rdfs:label xml:lang="pt">MINMAX / Minimax Regret (multicritério)</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Mista"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#NaoMonotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>MINMAX / Minimax Regret (multicritério)</nomeOriginalTabela22>
+    <familiaTabela22>Distância</familiaTabela22>
+    <ponderacaoTabela22>Sem ponderação</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#MAPPAC">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeSuperacao"/>
+    <rdfs:label xml:lang="pt">MAPPAC</rdfs:label>
+    <nomeOriginalTabela22>MAPPAC</nomeOriginalTabela22>
+    <familiaTabela22>Sobreclassificacao</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#NaoMonotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Incompleta"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#Hesitant_Fuzzy_VIKOR">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoFuzzy"/>
+    <rdfs:label xml:lang="pt">Hesitant Fuzzy VIKOR</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#ParcialmenteCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#CardinalFuzzy"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Incerteza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>Hesitant Fuzzy VIKOR</nomeOriginalTabela22>
+    <familiaTabela22>Fuzzy</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#ROV">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeDistancia"/>
+    <rdfs:label xml:lang="pt">ROV</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel>
+      <TipoDeVariavel rdf:about="http://www.ontomcda.org/onto#CardinalIntervalar">
+        <rdfs:label xml:lang="pt">Cardinal intervalar</rdfs:label>
+      </TipoDeVariavel>
+    </temTipoDeVariavel>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Incerteza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>ROV</nomeOriginalTabela22>
+    <familiaTabela22>Distância</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#RAM">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeUtilidade"/>
+    <rdfs:label xml:lang="pt">RAM</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método acrescentado como contribuição bibliográfica externa. DOI de referência: 10.1016/j.jclepro.2023.138695. Confirmar indexação item a item em Scopus/Web of Science com acesso institucional.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>RAM</nomeOriginalTabela22>
+    <familiaTabela22>Root Assessment Method</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#Copeland">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeVotacao"/>
+    <rdfs:label xml:lang="pt">Copeland</rdfs:label>
+    <nomeOriginalTabela22>Copeland</nomeOriginalTabela22>
+    <familiaTabela22>Votacao</familiaTabela22>
+    <ponderacaoTabela22>Sem ponderacao</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#NaoMonotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Incompleta"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#PROMETHEE_VI">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeSuperacao"/>
+    <rdfs:label xml:lang="pt">PROMETHEE_VI</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#ParcialmenteCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Mista"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#MonotonicidadeFraca"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Incerteza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Incompleta"/>
+    <nomeOriginalTabela22>PROMETHEE_VI</nomeOriginalTabela22>
+    <familiaTabela22>Sobreclassificação</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#GRA">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoFuzzy"/>
+    <rdfs:label xml:lang="pt">GRA (Grey Relational Analysis)</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Incerteza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>GRA (Grey Relational Analysis)</nomeOriginalTabela22>
+    <familiaTabela22>Fuzzy</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#DEMATEL_TOPSIS">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoHibrido"/>
+    <rdfs:label xml:lang="pt">DEMATEL--TOPSIS</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>DEMATEL--TOPSIS</nomeOriginalTabela22>
+    <familiaTabela22>Híbrido</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#PROMETHEE_III">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeSuperacao"/>
+    <rdfs:label xml:lang="pt">PROMETHEE_III</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#ParcialmenteCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#MonotonicidadeFraca"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Incompleta"/>
+    <nomeOriginalTabela22>PROMETHEE_III</nomeOriginalTabela22>
+    <familiaTabela22>Sobreclassificação</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#AHP_VIKOR">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoHibrido"/>
+    <rdfs:label xml:lang="pt">AHP--VIKOR</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#ParcialmenteCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>AHP--VIKOR</nomeOriginalTabela22>
+    <familiaTabela22>Híbrido</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <owl:ObjectProperty rdf:about="http://www.ontomcda.org/onto#temCompletudePref">
+    <rdfs:domain rdf:resource="http://www.ontomcda.org/onto#MetodoMCDA"/>
+    <rdfs:range rdf:resource="http://www.ontomcda.org/onto#CompletudePref"/>
+    <rdfs:label xml:lang="pt">temCompletudePref</rdfs:label>
+  </owl:ObjectProperty>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#COCOSO">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoHibrido"/>
+    <rdfs:label xml:lang="pt">COCOSO</rdfs:label>
+    <nomeOriginalTabela22>COCOSO</nomeOriginalTabela22>
+    <familiaTabela22>Compromisso combinado</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#DANP">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoHibrido"/>
+    <rdfs:label xml:lang="pt">DEMATEL--ANP (DANP)</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>DEMATEL--ANP (DANP)</nomeOriginalTabela22>
+    <familiaTabela22>Híbrido</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#ELECTRE_II">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeSuperacao"/>
+    <rdfs:label xml:lang="pt">ELECTRE II</rdfs:label>
+    <nomeOriginalTabela22>ELECTRE II</nomeOriginalTabela22>
+    <familiaTabela22>Sobreclassificacao</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Mista"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#PseudoCardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#NaoMonotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Incompleta"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#ORESTE">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeSuperacao"/>
+    <rdfs:label xml:lang="pt">ORESTE</rdfs:label>
+    <nomeOriginalTabela22>ORESTE</nomeOriginalTabela22>
+    <familiaTabela22>Sobreclassificacao</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#NaoMonotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Incompleta"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#ARGUS">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeSuperacao"/>
+    <rdfs:label xml:lang="pt">ARGUS</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#NaoMonotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Incompleta"/>
+    <nomeOriginalTabela22>ARGUS</nomeOriginalTabela22>
+    <familiaTabela22>Sobreclassificação</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#EDAS">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeDistancia"/>
+    <rdfs:label xml:lang="pt">EDAS</rdfs:label>
+    <nomeOriginalTabela22>EDAS</nomeOriginalTabela22>
+    <familiaTabela22>Distancia media</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#SAPEVO_BSC">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoHibrido"/>
+    <rdfs:label xml:lang="pt">SAPEVO-BSC</rdfs:label>
+    <nomeOriginalTabela22>SAPEVO-BSC</nomeOriginalTabela22>
+    <familiaTabela22>Ordinal hibrido</familiaTabela22>
+    <ponderacaoTabela22>Comparacao par-a-par</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+  </MetodoMCDA>
+  <owl:ObjectProperty rdf:about="http://www.ontomcda.org/onto#temTipoDeProblema">
+    <rdfs:domain rdf:resource="http://www.ontomcda.org/onto#MetodoMCDA"/>
+    <rdfs:range rdf:resource="http://www.ontomcda.org/onto#TipoDeProblema"/>
+    <rdfs:label xml:lang="pt">temTipoDeProblema</rdfs:label>
+  </owl:ObjectProperty>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#q_ROF_MCDA">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoFuzzy"/>
+    <rdfs:label xml:lang="pt">q--ROF MCDA</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#CardinalFuzzy"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Incerteza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>q--ROF MCDA</nomeOriginalTabela22>
+    <familiaTabela22>Fuzzy</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#PROMETHEE_SAPEVO_M1">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoHibrido"/>
+    <rdfs:label xml:lang="pt">PROMETHEE-SAPEVO-M1</rdfs:label>
+    <nomeOriginalTabela22>PROMETHEE-SAPEVO-M1</nomeOriginalTabela22>
+    <familiaTabela22>Hibrido</familiaTabela22>
+    <ponderacaoTabela22>Hibrida / indireta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#ParcialmenteCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Mista"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#MonotonicidadeFraca"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Parcial"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#MACBETH">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeUtilidade"/>
+    <rdfs:label xml:lang="pt">MACBETH</rdfs:label>
+    <nomeOriginalTabela22>MACBETH</nomeOriginalTabela22>
+    <familiaTabela22>Julgamento semantico</familiaTabela22>
+    <ponderacaoTabela22>Comparacao par-a-par</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#Grey_AHP">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoFuzzy"/>
+    <rdfs:label xml:lang="pt">Grey AHP</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel>
+      <TipoDeVariavel rdf:about="http://www.ontomcda.org/onto#CardinalGrey">
+        <rdfs:label xml:lang="pt">Cardinal grey</rdfs:label>
+      </TipoDeVariavel>
+    </temTipoDeVariavel>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Incerteza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>Grey AHP</nomeOriginalTabela22>
+    <familiaTabela22>Fuzzy</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#SAPEVO_H2">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoHibrido"/>
+    <rdfs:label xml:lang="pt">SAPEVO-H2</rdfs:label>
+    <nomeOriginalTabela22>SAPEVO-H2</nomeOriginalTabela22>
+    <familiaTabela22>Hibrido hierarquico</familiaTabela22>
+    <ponderacaoTabela22>Comparacao par-a-par</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Mista"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#AHP_ELECTRE">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoHibrido"/>
+    <rdfs:label xml:lang="pt">AHP--ELECTRE</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Mista"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#NaoMonotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Incompleta"/>
+    <nomeOriginalTabela22>AHP--ELECTRE</nomeOriginalTabela22>
+    <familiaTabela22>Híbrido</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#Interval_TOPSIS">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoFuzzy"/>
+    <rdfs:label xml:lang="pt">Interval TOPSIS</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#CardinalIntervalar"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Incerteza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>Interval TOPSIS</nomeOriginalTabela22>
+    <familiaTabela22>Fuzzy</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#ELECTRE_VI">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeSuperacao"/>
+    <rdfs:label xml:lang="pt">ELECTRE_VI</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#PseudoCardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#NaoMonotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Incompleta"/>
+    <nomeOriginalTabela22>ELECTRE_VI</nomeOriginalTabela22>
+    <familiaTabela22>Sobreclassificação</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#BWM">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDePonderacao"/>
+    <rdfs:label xml:lang="pt">BWM</rdfs:label>
+    <nomeOriginalTabela22>BWM</nomeOriginalTabela22>
+    <familiaTabela22>Pesagem</familiaTabela22>
+    <ponderacaoTabela22>Comparacao par-a-par</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#DNMA">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoHibrido"/>
+    <rdfs:label xml:lang="pt">DNMA</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método acrescentado como contribuição bibliográfica externa. DOI de referência: 10.1016/j.omega.2019.04.001. Confirmar indexação item a item em Scopus/Web of Science com acesso institucional.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>DNMA</nomeOriginalTabela22>
+    <familiaTabela22>Double normalization-based multiple aggregation</familiaTabela22>
+    <ponderacaoTabela22>Agregacao multipla</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#Sugeno_Integral_MCDA">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeUtilidade"/>
+    <rdfs:label xml:lang="pt">Sugeno_Integral_MCDA</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#ParcialmenteCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>Sugeno_Integral_MCDA</nomeOriginalTabela22>
+    <familiaTabela22>Utilidade</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#SIR">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeSuperacao"/>
+    <rdfs:label xml:lang="pt">SIR</rdfs:label>
+    <nomeOriginalTabela22>SIR</nomeOriginalTabela22>
+    <familiaTabela22>Sobreclassificacao</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#NaoMonotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Incompleta"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#QUALIFLEX">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeSuperacao"/>
+    <rdfs:label xml:lang="pt">QUALIFLEX</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#NaoMonotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>QUALIFLEX</nomeOriginalTabela22>
+    <familiaTabela22>Sobreclassificação</familiaTabela22>
+    <ponderacaoTabela22>Sem ponderação</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#CRITIC_TOPSIS">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoHibrido"/>
+    <rdfs:label xml:lang="pt">CRITIC--TOPSIS</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>CRITIC--TOPSIS</nomeOriginalTabela22>
+    <familiaTabela22>Híbrido</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#PROMETHEE_III_VI">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeSuperacao"/>
+    <rdfs:label xml:lang="pt">PROMETHEE III–VI</rdfs:label>
+    <nomeOriginalTabela22>PROMETHEE III–VI</nomeOriginalTabela22>
+    <familiaTabela22>Sobreclassificacao</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#ParcialmenteCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#MonotonicidadeFraca"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Parcial"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#ELECTRE_TRIC">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeClassificacao"/>
+    <rdfs:label xml:lang="pt">ELECTRE TRI-C</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Classificacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#PseudoCardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#NaoMonotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Incompleta"/>
+    <nomeOriginalTabela22>ELECTRE TRI-C</nomeOriginalTabela22>
+    <familiaTabela22>Classificação</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>Classificacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#Picture_Fuzzy_MCDA">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoFuzzy"/>
+    <rdfs:label xml:lang="pt">Picture Fuzzy MCDA</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#CardinalFuzzy"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Incerteza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>Picture Fuzzy MCDA</nomeOriginalTabela22>
+    <familiaTabela22>Fuzzy</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <owl:DatatypeProperty rdf:about="http://www.ontomcda.org/onto#valorPeso">
+    <rdfs:domain rdf:resource="http://www.ontomcda.org/onto#PesoCriterio"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <rdfs:label xml:lang="pt">valor do peso</rdfs:label>
+    <rdfs:comment xml:lang="pt">Registra numericamente o valor associado ao peso de um critério, quando disponível.</rdfs:comment>
+  </owl:DatatypeProperty>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#Fuzzy_VIKOR">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoFuzzy"/>
+    <rdfs:label xml:lang="pt">Fuzzy VIKOR</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#ParcialmenteCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#CardinalFuzzy"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Incerteza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>Fuzzy VIKOR</nomeOriginalTabela22>
+    <familiaTabela22>Fuzzy</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#TODIM">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeUtilidade"/>
+    <rdfs:label xml:lang="pt">TODIM</rdfs:label>
+    <nomeOriginalTabela22>TODIM</nomeOriginalTabela22>
+    <familiaTabela22>Prospect Theory</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#ParcialmenteCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#NaoMonotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Parcial"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#ELECTRE_MOr">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoHibrido"/>
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeClassificacao"/>
+    <rdfs:label xml:lang="pt">ELECTRE-MOr</rdfs:label>
+    <nomeOriginalTabela22>ELECTRE-MOr</nomeOriginalTabela22>
+    <familiaTabela22>Hibrido</familiaTabela22>
+    <ponderacaoTabela22>Comparacao par-a-par</ponderacaoTabela22>
+    <grupoTabela22>Classificacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Classificacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#NaoMonotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Incompleta"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#MR_Sort">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeSuperacao"/>
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeClassificacao"/>
+    <rdfs:label xml:lang="pt">MR-Sort</rdfs:label>
+    <nomeOriginalTabela22>MR-Sort</nomeOriginalTabela22>
+    <familiaTabela22>Sobreclassificacao</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>Classificacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Classificacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Mista"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#PseudoCardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#NaoMonotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Incompleta"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#PROAFTN">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeSuperacao"/>
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeClassificacao"/>
+    <rdfs:label xml:lang="pt">PROAFTN</rdfs:label>
+    <nomeOriginalTabela22>PROAFTN</nomeOriginalTabela22>
+    <familiaTabela22>Sobreclassificacao</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>Classificacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Classificacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#NaoMonotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Incompleta"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#ELECTRE_IV">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeSuperacao"/>
+    <rdfs:label xml:lang="pt">ELECTRE IV</rdfs:label>
+    <nomeOriginalTabela22>ELECTRE IV</nomeOriginalTabela22>
+    <familiaTabela22>Sobreclassificacao</familiaTabela22>
+    <ponderacaoTabela22>Sem ponderacao</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#NaoMonotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Incompleta"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#MARCOS">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoHibrido"/>
+    <rdfs:label xml:lang="pt">MARCOS</rdfs:label>
+    <nomeOriginalTabela22>MARCOS</nomeOriginalTabela22>
+    <familiaTabela22>Compromisso de utilidade</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#THOR">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeSuperacao"/>
+    <rdfs:label xml:lang="pt">THOR</rdfs:label>
+    <nomeOriginalTabela22>THOR</nomeOriginalTabela22>
+    <familiaTabela22>Sobreclassificacao</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#NaoCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Ordinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#NaoMonotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Incerteza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Incompleta"/>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#PROMETHEE_V">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeSuperacao"/>
+    <rdfs:label xml:lang="pt">PROMETHEE V (portfólio)</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método reintroduzido como contribuição a partir da versão inicial ampliada da OntoMCDA; recomenda-se validação bibliográfica formal em Scopus/Web of Science antes de uso como versão final da tese.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#ParcialmenteCompensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Mista"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#MonotonicidadeFraca"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Multidecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>PROMETHEE V (portfólio)</nomeOriginalTabela22>
+    <familiaTabela22>Sobreclassificação</familiaTabela22>
+    <ponderacaoTabela22>Ponderável</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#AROMAN">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoHibrido"/>
+    <rdfs:label xml:lang="pt">AROMAN</rdfs:label>
+    <rdfs:comment xml:lang="pt">Método acrescentado como contribuição bibliográfica externa. DOI de referência: 10.1109/access.2023.3265818. Confirmar indexação item a item em Scopus/Web of Science com acesso institucional.</rdfs:comment>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+    <nomeOriginalTabela22>AROMAN</nomeOriginalTabela22>
+    <familiaTabela22>Alternative Ranking Order Method Accounting for Two-Step Normalization</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+  </MetodoMCDA>
+  <owl:DatatypeProperty rdf:about="http://www.ontomcda.org/onto#familiaTabela22">
+    <rdfs:domain rdf:resource="http://www.ontomcda.org/onto#MetodoMCDA"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <MetodoMCDA rdf:about="http://www.ontomcda.org/onto#OWA">
+    <rdf:type rdf:resource="http://www.ontomcda.org/onto#MetodoDeUtilidade"/>
+    <rdfs:label xml:lang="pt">OWA</rdfs:label>
+    <nomeOriginalTabela22>OWA</nomeOriginalTabela22>
+    <familiaTabela22>Agregacao ordenada</familiaTabela22>
+    <ponderacaoTabela22>Atribuicao direta</ponderacaoTabela22>
+    <grupoTabela22>SelecaoOrdenacao</grupoTabela22>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Escolha"/>
+    <temTipoDeProblema rdf:resource="http://www.ontomcda.org/onto#Ordenacao"/>
+    <temCompensatoriedade rdf:resource="http://www.ontomcda.org/onto#Compensatorio"/>
+    <temTipoDeVariavel rdf:resource="http://www.ontomcda.org/onto#Cardinal"/>
+    <temMonotonicidade rdf:resource="http://www.ontomcda.org/onto#Monotonico"/>
+    <temEstruturaDecisoria rdf:resource="http://www.ontomcda.org/onto#Monodecisor"/>
+    <temAmbienteDeDecisao rdf:resource="http://www.ontomcda.org/onto#Certeza"/>
+    <temCompletudePref rdf:resource="http://www.ontomcda.org/onto#Completa"/>
+  </MetodoMCDA>
+  <AmbienteDeDecisao rdf:about="http://www.ontomcda.org/onto#Risco">
+    <rdfs:label xml:lang="pt">Risco</rdfs:label>
+  </AmbienteDeDecisao>
+  <owl:DatatypeProperty rdf:about="http://www.ontomcda.org/onto#nomeOriginalTabela22">
+    <rdfs:domain rdf:resource="http://www.ontomcda.org/onto#MetodoMCDA"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontomcda.org/onto#grupoTabela22">
+    <rdfs:domain rdf:resource="http://www.ontomcda.org/onto#MetodoMCDA"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontomcda.org/onto#temTipoDeVariavel">
+    <rdfs:domain rdf:resource="http://www.ontomcda.org/onto#MetodoMCDA"/>
+    <rdfs:range rdf:resource="http://www.ontomcda.org/onto#TipoDeVariavel"/>
+    <rdfs:label xml:lang="pt">temTipoDeVariavel</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontomcda.org/onto#ponderacaoTabela22">
+    <rdfs:domain rdf:resource="http://www.ontomcda.org/onto#MetodoMCDA"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontomcda.org/onto#temPeso">
+    <rdfs:domain rdf:resource="http://www.ontomcda.org/onto#Criterio"/>
+    <rdfs:range rdf:resource="http://www.ontomcda.org/onto#PesoCriterio"/>
+    <rdfs:label xml:lang="pt">tem peso</rdfs:label>
+    <rdfs:comment xml:lang="pt">Relaciona um critério ao peso que expressa sua importância relativa no processo decisório.</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontomcda.org/onto#temEstruturaDecisoria">
+    <rdfs:domain rdf:resource="http://www.ontomcda.org/onto#MetodoMCDA"/>
+    <rdfs:range rdf:resource="http://www.ontomcda.org/onto#EstruturaDecisoria"/>
+    <rdfs:label xml:lang="pt">temEstruturaDecisoria</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontomcda.org/onto#temCompensatoriedade">
+    <rdfs:domain rdf:resource="http://www.ontomcda.org/onto#MetodoMCDA"/>
+    <rdfs:range rdf:resource="http://www.ontomcda.org/onto#Compensatoriedade"/>
+    <rdfs:label xml:lang="pt">temCompensatoriedade</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:Ontology rdf:about="http://www.ontomcda.org/onto#OntologyMCDA">
+    <rdfs:label xml:lang="pt">OntoMCDA - Ontologia de métodos multicritério baseada na Tabela 22 da tese</rdfs:label>
+    <dcterms:description xml:lang="pt">Versão derivada da Tabela 22 - Caracterização dos métodos multicritério. Vocabulário controlado para recomendação de métodos MCDA.</dcterms:description>
+  </owl:Ontology>
+  <owl:Class rdf:about="http://www.ontomcda.org/onto#EstruturaDecisoria">
+    <rdfs:label xml:lang="pt">Estrutura decisória</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontomcda.org/onto#MetodoDeUtilidade">
+    <rdfs:label xml:lang="pt">Método de utilidade</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.ontomcda.org/onto#MetodoMCDA"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontomcda.org/onto#CompletudePref">
+    <rdfs:label xml:lang="pt">Completude das preferências</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontomcda.org/onto#Monotonicidade">
+    <rdfs:label xml:lang="pt">Monotonicidade</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontomcda.org/onto#MetodoMCDA">
+    <rdfs:label xml:lang="pt">Método MCDA</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontomcda.org/onto#AmbienteDeDecisao">
+    <rdfs:label xml:lang="pt">Ambiente de decisão</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontomcda.org/onto#PesoCriterio">
+    <rdfs:label xml:lang="pt">Peso do critério</rdfs:label>
+    <rdfs:comment xml:lang="pt">Valor ou representação associada à importância relativa de um critério no processo decisório.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontomcda.org/onto#MetodoDeDistancia">
+    <rdfs:label xml:lang="pt">Método de distância</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.ontomcda.org/onto#MetodoMCDA"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontomcda.org/onto#MetodoDeVotacao">
+    <rdfs:label xml:lang="pt">Método de votação</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.ontomcda.org/onto#MetodoMCDA"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontomcda.org/onto#MetodoDeClassificacao">
+    <rdfs:label xml:lang="pt">Método de classificação</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.ontomcda.org/onto#MetodoMCDA"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontomcda.org/onto#Criterio">
+    <rdfs:label xml:lang="pt">Critério</rdfs:label>
+    <rdfs:comment xml:lang="pt">Elemento de avaliação utilizado para analisar alternativas em um problema decisório.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontomcda.org/onto#MetodoFuzzy">
+    <rdfs:label xml:lang="pt">Método fuzzy</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.ontomcda.org/onto#MetodoMCDA"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontomcda.org/onto#MetodoDePonderacao">
+    <rdfs:label xml:lang="pt">Método de ponderação</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.ontomcda.org/onto#MetodoMCDA"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontomcda.org/onto#MetodoDeSuperacao">
+    <rdfs:label xml:lang="pt">Método de superação</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.ontomcda.org/onto#MetodoMCDA"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontomcda.org/onto#MetodoHibrido">
+    <rdfs:label xml:lang="pt">Método híbrido</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.ontomcda.org/onto#MetodoMCDA"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontomcda.org/onto#TipoDeVariavel">
+    <rdfs:label xml:lang="pt">Tipo de variável</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontomcda.org/onto#Compensatoriedade">
+    <rdfs:label xml:lang="pt">Compensatoriedade</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontomcda.org/onto#ProblemaDecisao">
+    <rdfs:label xml:lang="pt">Problema de decisão</rdfs:label>
+    <rdfs:comment xml:lang="pt">Situação decisória descrita pelo usuário e estruturada em critérios, alternativas e premissas decisórias.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontomcda.org/onto#TipoDeProblema">
+    <rdfs:label xml:lang="pt">Tipo de problema</rdfs:label>
+  </owl:Class>
+</rdf:RDF>

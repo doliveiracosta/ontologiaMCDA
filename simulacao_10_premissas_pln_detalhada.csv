@@ -1,0 +1,181 @@
+﻿caso,premissa,premissa_label,esperado,inferido,acerto,evidencia
+1,tipo_problema,Tipo de problema,Escolha,Escolha,1,selecionar(1) | melhor alternativa(1) | contratacao(1) | selecionar a melhor alternativa(1)
+1,compensatoriedade,Compensatoriedade,Compensatorio,Compensatorio,1,compensar(1) | compensacao(1) | permite compensacao(1) | compensacao entre criterios(1) | regra_regex_compensatorio
+1,tipo_variavel,Tipo de variável,Mista,Mista,1,quantitativos e qualitativos(1) | criterios quantitativos e qualitativos(1) | regra_precedencia_variavel_mista
+1,monotonicidade,Monotonicidade,Monotonico,Monotonico,1,monotonico(1) | regra_semantica_monotonico
+1,estrutura_decisoria,Estrutura decisória,Grupo,Grupo,1,grupo(1) | grupo de decisores(1)
+1,completude_pref,Completude das preferências,Completo,Completo,1,todas as alternativas(1) | regra_semantica_completo
+1,ambiente_decisao,Ambiente de decisão,Incerteza,Incerteza,1,incerteza(1) | regra_precedencia_incerteza
+1,ponderabilidade,Ponderabilidade,Ponderavel,Ponderavel,1,pesos dos criterios(1) | regra_semantica_ponderavel
+1,usa_pesos,Usa pesos,Sim,Sim,1,regra_semantica_pesos
+1,requer_pesos,Requer pesos,Sim,Sim,1,regra_semantica_pesos
+2,tipo_problema,Tipo de problema,Escolha,Escolha,1,selecionar(1) | melhor alternativa(1) | contratacao(1) | selecionar a melhor alternativa(1)
+2,compensatoriedade,Compensatoriedade,Compensatorio,Compensatorio,1,compensar(1) | compensacao(1) | permite compensacao(1) | compensacao entre criterios(1) | regra_regex_compensatorio
+2,tipo_variavel,Tipo de variável,Mista,Mista,1,quantitativos e qualitativos(1) | criterios quantitativos e qualitativos(1) | regra_precedencia_variavel_mista
+2,monotonicidade,Monotonicidade,NaoMonotonico,NaoMonotonico,1,nao monotonico(1) | faixa ideal(1) | ponto otimo(1) | regra_semantica_nao_monotonico
+2,estrutura_decisoria,Estrutura decisória,Grupo,Grupo,1,grupo(1) | grupo de decisores(1)
+2,completude_pref,Completude das preferências,Completo,Completo,1,todas as alternativas(1) | regra_semantica_completo
+2,ambiente_decisao,Ambiente de decisão,Incerteza,Incerteza,1,incerteza(1) | regra_precedencia_incerteza
+2,ponderabilidade,Ponderabilidade,Ponderavel,Ponderavel,1,pesos dos criterios(1) | regra_semantica_ponderavel
+2,usa_pesos,Usa pesos,Sim,Sim,1,regra_semantica_pesos
+2,requer_pesos,Requer pesos,Sim,Sim,1,regra_semantica_pesos
+3,tipo_problema,Tipo de problema,Escolha,Escolha,1,selecionar(1) | melhor alternativa(1) | contratacao(1) | selecionar a melhor alternativa(1)
+3,compensatoriedade,Compensatoriedade,ParcialmenteCompensatorio,ParcialmenteCompensatorio,1,compensacao parcial(1) | compensacao parcial entre criterios(1) | admite compensacao parcial(1) | regra_regex_compensacao_com_veto
+3,tipo_variavel,Tipo de variável,Mista,Mista,1,quantitativos e qualitativos(1) | criterios quantitativos e qualitativos(1) | regra_precedencia_variavel_mista
+3,monotonicidade,Monotonicidade,Monotonico,NaoMonotonico,0,regra_semantica_nao_monotonico
+3,estrutura_decisoria,Estrutura decisória,Grupo,Grupo,1,grupo(1) | grupo de decisores(1)
+3,completude_pref,Completude das preferências,Completo,Completo,1,todas as alternativas(1) | regra_semantica_completo
+3,ambiente_decisao,Ambiente de decisão,Incerteza,Incerteza,1,incerteza(1) | regra_precedencia_incerteza
+3,ponderabilidade,Ponderabilidade,Ponderavel,Ponderavel,1,pesos dos criterios(1) | regra_semantica_ponderavel
+3,usa_pesos,Usa pesos,Sim,Sim,1,regra_semantica_pesos
+3,requer_pesos,Requer pesos,Sim,Sim,1,regra_semantica_pesos
+4,tipo_problema,Tipo de problema,Escolha,Escolha,1,selecionar(1) | melhor alternativa(1) | contratacao(1) | selecionar a melhor alternativa(1)
+4,compensatoriedade,Compensatoriedade,ParcialmenteCompensatorio,ParcialmenteCompensatorio,1,compensacao parcial(1) | compensacao parcial entre criterios(1) | admite compensacao parcial(1) | regra_regex_compensacao_com_veto
+4,tipo_variavel,Tipo de variável,Mista,Mista,1,quantitativos e qualitativos(1) | criterios quantitativos e qualitativos(1) | regra_precedencia_variavel_mista
+4,monotonicidade,Monotonicidade,NaoMonotonico,NaoMonotonico,1,nao monotonico(1) | veto(1) | faixa ideal(1) | ponto otimo(1) | regra_semantica_nao_monotonico
+4,estrutura_decisoria,Estrutura decisória,Grupo,Grupo,1,grupo(1) | grupo de decisores(1)
+4,completude_pref,Completude das preferências,Completo,Completo,1,todas as alternativas(1) | regra_semantica_completo
+4,ambiente_decisao,Ambiente de decisão,Incerteza,Incerteza,1,incerteza(1) | regra_precedencia_incerteza
+4,ponderabilidade,Ponderabilidade,Ponderavel,Ponderavel,1,pesos dos criterios(1) | regra_semantica_ponderavel
+4,usa_pesos,Usa pesos,Sim,Sim,1,regra_semantica_pesos
+4,requer_pesos,Requer pesos,Sim,Sim,1,regra_semantica_pesos
+5,tipo_problema,Tipo de problema,Escolha,Escolha,1,selecionar(1) | melhor alternativa(1) | contratacao(1) | selecionar a melhor alternativa(1)
+5,compensatoriedade,Compensatoriedade,NaoCompensatorio,NaoCompensatorio,1,veto(1) | nao admite compensacao(1) | criterio de veto(1) | requisito minimo obrigatorio(1) | regra_regex_nao_compensatorio
+5,tipo_variavel,Tipo de variável,Mista,Mista,1,quantitativos e qualitativos(1) | criterios quantitativos e qualitativos(1) | regra_precedencia_variavel_mista
+5,monotonicidade,Monotonicidade,Monotonico,Monotonico,1,regra_semantica_monotonico
+5,estrutura_decisoria,Estrutura decisória,Grupo,Grupo,1,grupo(1) | grupo de decisores(1)
+5,completude_pref,Completude das preferências,Completo,Completo,1,todas as alternativas(1) | regra_semantica_completo
+5,ambiente_decisao,Ambiente de decisão,Incerteza,Incerteza,1,incerteza(1) | regra_precedencia_incerteza
+5,ponderabilidade,Ponderabilidade,Ponderavel,Ponderavel,1,pesos dos criterios(1) | regra_semantica_ponderavel
+5,usa_pesos,Usa pesos,Sim,Sim,1,regra_semantica_pesos
+5,requer_pesos,Requer pesos,Sim,Sim,1,regra_semantica_pesos
+6,tipo_problema,Tipo de problema,Escolha,Escolha,1,selecionar(1) | melhor alternativa(1) | contratacao(1) | selecionar a melhor alternativa(1)
+6,compensatoriedade,Compensatoriedade,NaoCompensatorio,NaoCompensatorio,1,veto(1) | nao admite compensacao(1) | criterio de veto(1) | requisito minimo obrigatorio(1) | regra_regex_nao_compensatorio
+6,tipo_variavel,Tipo de variável,Mista,Mista,1,quantitativos e qualitativos(1) | criterios quantitativos e qualitativos(1) | regra_precedencia_variavel_mista
+6,monotonicidade,Monotonicidade,NaoMonotonico,NaoMonotonico,1,nao monotonico(1) | veto(1) | faixa ideal(1) | ponto otimo(1) | regra_semantica_nao_monotonico
+6,estrutura_decisoria,Estrutura decisória,Grupo,Grupo,1,grupo(1) | grupo de decisores(1)
+6,completude_pref,Completude das preferências,Completo,Completo,1,todas as alternativas(1) | regra_semantica_completo
+6,ambiente_decisao,Ambiente de decisão,Incerteza,Incerteza,1,incerteza(1) | regra_precedencia_incerteza
+6,ponderabilidade,Ponderabilidade,Ponderavel,Ponderavel,1,pesos dos criterios(1) | regra_semantica_ponderavel
+6,usa_pesos,Usa pesos,Sim,Sim,1,regra_semantica_pesos
+6,requer_pesos,Requer pesos,Sim,Sim,1,regra_semantica_pesos
+7,tipo_problema,Tipo de problema,Classificacao,Classificacao,1,classificar(1) | categorias(1) | categorias previamente definidas(1) | regra_precedencia_classificacao
+7,compensatoriedade,Compensatoriedade,Compensatorio,Compensatorio,1,compensar(1) | compensacao(1) | permite compensacao(1) | compensacao entre criterios(1) | regra_regex_compensatorio
+7,tipo_variavel,Tipo de variável,Mista,Mista,1,quantitativos e qualitativos(1) | criterios quantitativos e qualitativos(1) | regra_precedencia_variavel_mista
+7,monotonicidade,Monotonicidade,Monotonico,Monotonico,1,monotonico(1) | regra_semantica_monotonico
+7,estrutura_decisoria,Estrutura decisória,Grupo,Grupo,1,grupo(1) | grupo de decisores(1)
+7,completude_pref,Completude das preferências,Completo,Completo,1,todas as alternativas(1) | regra_semantica_completo
+7,ambiente_decisao,Ambiente de decisão,Incerteza,Incerteza,1,incerteza(1) | regra_precedencia_incerteza
+7,ponderabilidade,Ponderabilidade,Ponderavel,Ponderavel,1,pesos dos criterios(1) | regra_semantica_ponderavel
+7,usa_pesos,Usa pesos,Sim,Sim,1,regra_semantica_pesos
+7,requer_pesos,Requer pesos,Sim,Sim,1,regra_semantica_pesos
+8,tipo_problema,Tipo de problema,Classificacao,Classificacao,1,classificar(1) | categorias(1) | categorias previamente definidas(1) | regra_precedencia_classificacao
+8,compensatoriedade,Compensatoriedade,Compensatorio,Compensatorio,1,compensar(1) | compensacao(1) | permite compensacao(1) | compensacao entre criterios(1) | regra_regex_compensatorio
+8,tipo_variavel,Tipo de variável,Mista,Mista,1,quantitativos e qualitativos(1) | criterios quantitativos e qualitativos(1) | regra_precedencia_variavel_mista
+8,monotonicidade,Monotonicidade,NaoMonotonico,NaoMonotonico,1,nao monotonico(1) | faixa ideal(1) | ponto otimo(1) | regra_semantica_nao_monotonico
+8,estrutura_decisoria,Estrutura decisória,Grupo,Grupo,1,grupo(1) | grupo de decisores(1)
+8,completude_pref,Completude das preferências,Completo,Completo,1,todas as alternativas(1) | regra_semantica_completo
+8,ambiente_decisao,Ambiente de decisão,Incerteza,Incerteza,1,incerteza(1) | regra_precedencia_incerteza
+8,ponderabilidade,Ponderabilidade,Ponderavel,Ponderavel,1,pesos dos criterios(1) | regra_semantica_ponderavel
+8,usa_pesos,Usa pesos,Sim,Sim,1,regra_semantica_pesos
+8,requer_pesos,Requer pesos,Sim,Sim,1,regra_semantica_pesos
+9,tipo_problema,Tipo de problema,Classificacao,Classificacao,1,classificar(1) | categorias(1) | categorias previamente definidas(1) | regra_precedencia_classificacao
+9,compensatoriedade,Compensatoriedade,ParcialmenteCompensatorio,ParcialmenteCompensatorio,1,compensacao parcial(1) | compensacao parcial entre criterios(1) | admite compensacao parcial(1) | regra_regex_compensacao_com_veto
+9,tipo_variavel,Tipo de variável,Mista,Mista,1,quantitativos e qualitativos(1) | criterios quantitativos e qualitativos(1) | regra_precedencia_variavel_mista
+9,monotonicidade,Monotonicidade,Monotonico,NaoMonotonico,0,regra_semantica_nao_monotonico
+9,estrutura_decisoria,Estrutura decisória,Grupo,Grupo,1,grupo(1) | grupo de decisores(1)
+9,completude_pref,Completude das preferências,Completo,Completo,1,todas as alternativas(1) | regra_semantica_completo
+9,ambiente_decisao,Ambiente de decisão,Incerteza,Incerteza,1,incerteza(1) | regra_precedencia_incerteza
+9,ponderabilidade,Ponderabilidade,Ponderavel,Ponderavel,1,pesos dos criterios(1) | regra_semantica_ponderavel
+9,usa_pesos,Usa pesos,Sim,Sim,1,regra_semantica_pesos
+9,requer_pesos,Requer pesos,Sim,Sim,1,regra_semantica_pesos
+10,tipo_problema,Tipo de problema,Classificacao,Classificacao,1,classificar(1) | categorias(1) | categorias previamente definidas(1) | regra_precedencia_classificacao
+10,compensatoriedade,Compensatoriedade,ParcialmenteCompensatorio,ParcialmenteCompensatorio,1,compensacao parcial(1) | compensacao parcial entre criterios(1) | admite compensacao parcial(1) | regra_regex_compensacao_com_veto
+10,tipo_variavel,Tipo de variável,Mista,Mista,1,quantitativos e qualitativos(1) | criterios quantitativos e qualitativos(1) | regra_precedencia_variavel_mista
+10,monotonicidade,Monotonicidade,NaoMonotonico,NaoMonotonico,1,nao monotonico(1) | veto(1) | faixa ideal(1) | ponto otimo(1) | regra_semantica_nao_monotonico
+10,estrutura_decisoria,Estrutura decisória,Grupo,Grupo,1,grupo(1) | grupo de decisores(1)
+10,completude_pref,Completude das preferências,Completo,Completo,1,todas as alternativas(1) | regra_semantica_completo
+10,ambiente_decisao,Ambiente de decisão,Incerteza,Incerteza,1,incerteza(1) | regra_precedencia_incerteza
+10,ponderabilidade,Ponderabilidade,Ponderavel,Ponderavel,1,pesos dos criterios(1) | regra_semantica_ponderavel
+10,usa_pesos,Usa pesos,Sim,Sim,1,regra_semantica_pesos
+10,requer_pesos,Requer pesos,Sim,Sim,1,regra_semantica_pesos
+11,tipo_problema,Tipo de problema,Classificacao,Classificacao,1,classificar(1) | categorias(1) | categorias previamente definidas(1) | regra_precedencia_classificacao
+11,compensatoriedade,Compensatoriedade,NaoCompensatorio,NaoCompensatorio,1,veto(1) | nao admite compensacao(1) | criterio de veto(1) | requisito minimo obrigatorio(1) | regra_regex_nao_compensatorio
+11,tipo_variavel,Tipo de variável,Mista,Mista,1,quantitativos e qualitativos(1) | criterios quantitativos e qualitativos(1) | regra_precedencia_variavel_mista
+11,monotonicidade,Monotonicidade,Monotonico,Monotonico,1,regra_semantica_monotonico
+11,estrutura_decisoria,Estrutura decisória,Grupo,Grupo,1,grupo(1) | grupo de decisores(1)
+11,completude_pref,Completude das preferências,Completo,Completo,1,todas as alternativas(1) | regra_semantica_completo
+11,ambiente_decisao,Ambiente de decisão,Incerteza,Incerteza,1,incerteza(1) | regra_precedencia_incerteza
+11,ponderabilidade,Ponderabilidade,Ponderavel,Ponderavel,1,pesos dos criterios(1) | regra_semantica_ponderavel
+11,usa_pesos,Usa pesos,Sim,Sim,1,regra_semantica_pesos
+11,requer_pesos,Requer pesos,Sim,Sim,1,regra_semantica_pesos
+12,tipo_problema,Tipo de problema,Classificacao,Classificacao,1,classificar(1) | categorias(1) | categorias previamente definidas(1) | regra_precedencia_classificacao
+12,compensatoriedade,Compensatoriedade,NaoCompensatorio,NaoCompensatorio,1,veto(1) | nao admite compensacao(1) | criterio de veto(1) | requisito minimo obrigatorio(1) | regra_regex_nao_compensatorio
+12,tipo_variavel,Tipo de variável,Mista,Mista,1,quantitativos e qualitativos(1) | criterios quantitativos e qualitativos(1) | regra_precedencia_variavel_mista
+12,monotonicidade,Monotonicidade,NaoMonotonico,NaoMonotonico,1,nao monotonico(1) | veto(1) | faixa ideal(1) | ponto otimo(1) | regra_semantica_nao_monotonico
+12,estrutura_decisoria,Estrutura decisória,Grupo,Grupo,1,grupo(1) | grupo de decisores(1)
+12,completude_pref,Completude das preferências,Completo,Completo,1,todas as alternativas(1) | regra_semantica_completo
+12,ambiente_decisao,Ambiente de decisão,Incerteza,Incerteza,1,incerteza(1) | regra_precedencia_incerteza
+12,ponderabilidade,Ponderabilidade,Ponderavel,Ponderavel,1,pesos dos criterios(1) | regra_semantica_ponderavel
+12,usa_pesos,Usa pesos,Sim,Sim,1,regra_semantica_pesos
+12,requer_pesos,Requer pesos,Sim,Sim,1,regra_semantica_pesos
+13,tipo_problema,Tipo de problema,Ordenacao,Ordenacao,1,ordenar(1) | ranking(1) | prioridade(1) | ordenar as alternativas(1) | regra_precedencia_ordenacao
+13,compensatoriedade,Compensatoriedade,Compensatorio,Compensatorio,1,compensar(1) | compensacao(1) | permite compensacao(1) | compensacao entre criterios(1) | regra_regex_compensatorio
+13,tipo_variavel,Tipo de variável,Mista,Mista,1,quantitativos e qualitativos(1) | criterios quantitativos e qualitativos(1) | regra_precedencia_variavel_mista
+13,monotonicidade,Monotonicidade,Monotonico,Monotonico,1,monotonico(1) | regra_semantica_monotonico
+13,estrutura_decisoria,Estrutura decisória,Grupo,Grupo,1,grupo(1) | grupo de decisores(1)
+13,completude_pref,Completude das preferências,Completo,Completo,1,todas as alternativas(1) | regra_semantica_completo
+13,ambiente_decisao,Ambiente de decisão,Incerteza,Incerteza,1,incerteza(1) | regra_precedencia_incerteza
+13,ponderabilidade,Ponderabilidade,Ponderavel,Ponderavel,1,pesos dos criterios(1) | regra_semantica_ponderavel
+13,usa_pesos,Usa pesos,Sim,Sim,1,regra_semantica_pesos
+13,requer_pesos,Requer pesos,Sim,Sim,1,regra_semantica_pesos
+14,tipo_problema,Tipo de problema,Ordenacao,Ordenacao,1,ordenar(1) | ranking(1) | prioridade(1) | ordenar as alternativas(1) | regra_precedencia_ordenacao
+14,compensatoriedade,Compensatoriedade,Compensatorio,Compensatorio,1,compensar(1) | compensacao(1) | permite compensacao(1) | compensacao entre criterios(1) | regra_regex_compensatorio
+14,tipo_variavel,Tipo de variável,Mista,Mista,1,quantitativos e qualitativos(1) | criterios quantitativos e qualitativos(1) | regra_precedencia_variavel_mista
+14,monotonicidade,Monotonicidade,NaoMonotonico,NaoMonotonico,1,nao monotonico(1) | faixa ideal(1) | ponto otimo(1) | regra_semantica_nao_monotonico
+14,estrutura_decisoria,Estrutura decisória,Grupo,Grupo,1,grupo(1) | grupo de decisores(1)
+14,completude_pref,Completude das preferências,Completo,Completo,1,todas as alternativas(1) | regra_semantica_completo
+14,ambiente_decisao,Ambiente de decisão,Incerteza,Incerteza,1,incerteza(1) | regra_precedencia_incerteza
+14,ponderabilidade,Ponderabilidade,Ponderavel,Ponderavel,1,pesos dos criterios(1) | regra_semantica_ponderavel
+14,usa_pesos,Usa pesos,Sim,Sim,1,regra_semantica_pesos
+14,requer_pesos,Requer pesos,Sim,Sim,1,regra_semantica_pesos
+15,tipo_problema,Tipo de problema,Ordenacao,Ordenacao,1,ordenar(1) | ranking(1) | prioridade(1) | ordenar as alternativas(1) | regra_precedencia_ordenacao
+15,compensatoriedade,Compensatoriedade,ParcialmenteCompensatorio,ParcialmenteCompensatorio,1,compensacao parcial(1) | compensacao parcial entre criterios(1) | admite compensacao parcial(1) | regra_regex_compensacao_com_veto
+15,tipo_variavel,Tipo de variável,Mista,Mista,1,quantitativos e qualitativos(1) | criterios quantitativos e qualitativos(1) | regra_precedencia_variavel_mista
+15,monotonicidade,Monotonicidade,Monotonico,NaoMonotonico,0,regra_semantica_nao_monotonico
+15,estrutura_decisoria,Estrutura decisória,Grupo,Grupo,1,grupo(1) | grupo de decisores(1)
+15,completude_pref,Completude das preferências,Completo,Completo,1,todas as alternativas(1) | regra_semantica_completo
+15,ambiente_decisao,Ambiente de decisão,Incerteza,Incerteza,1,incerteza(1) | regra_precedencia_incerteza
+15,ponderabilidade,Ponderabilidade,Ponderavel,Ponderavel,1,pesos dos criterios(1) | regra_semantica_ponderavel
+15,usa_pesos,Usa pesos,Sim,Sim,1,regra_semantica_pesos
+15,requer_pesos,Requer pesos,Sim,Sim,1,regra_semantica_pesos
+16,tipo_problema,Tipo de problema,Ordenacao,Ordenacao,1,ordenar(1) | ranking(1) | prioridade(1) | ordenar as alternativas(1) | regra_precedencia_ordenacao
+16,compensatoriedade,Compensatoriedade,ParcialmenteCompensatorio,ParcialmenteCompensatorio,1,compensacao parcial(1) | compensacao parcial entre criterios(1) | admite compensacao parcial(1) | regra_regex_compensacao_com_veto
+16,tipo_variavel,Tipo de variável,Mista,Mista,1,quantitativos e qualitativos(1) | criterios quantitativos e qualitativos(1) | regra_precedencia_variavel_mista
+16,monotonicidade,Monotonicidade,NaoMonotonico,NaoMonotonico,1,nao monotonico(1) | veto(1) | faixa ideal(1) | ponto otimo(1) | regra_semantica_nao_monotonico
+16,estrutura_decisoria,Estrutura decisória,Grupo,Grupo,1,grupo(1) | grupo de decisores(1)
+16,completude_pref,Completude das preferências,Completo,Completo,1,todas as alternativas(1) | regra_semantica_completo
+16,ambiente_decisao,Ambiente de decisão,Incerteza,Incerteza,1,incerteza(1) | regra_precedencia_incerteza
+16,ponderabilidade,Ponderabilidade,Ponderavel,Ponderavel,1,pesos dos criterios(1) | regra_semantica_ponderavel
+16,usa_pesos,Usa pesos,Sim,Sim,1,regra_semantica_pesos
+16,requer_pesos,Requer pesos,Sim,Sim,1,regra_semantica_pesos
+17,tipo_problema,Tipo de problema,Ordenacao,Ordenacao,1,ordenar(1) | ranking(1) | prioridade(1) | ordenar as alternativas(1) | regra_precedencia_ordenacao
+17,compensatoriedade,Compensatoriedade,NaoCompensatorio,NaoCompensatorio,1,veto(1) | nao admite compensacao(1) | criterio de veto(1) | requisito minimo obrigatorio(1) | regra_regex_nao_compensatorio
+17,tipo_variavel,Tipo de variável,Mista,Mista,1,quantitativos e qualitativos(1) | criterios quantitativos e qualitativos(1) | regra_precedencia_variavel_mista
+17,monotonicidade,Monotonicidade,Monotonico,Monotonico,1,regra_semantica_monotonico
+17,estrutura_decisoria,Estrutura decisória,Grupo,Grupo,1,grupo(1) | grupo de decisores(1)
+17,completude_pref,Completude das preferências,Completo,Completo,1,todas as alternativas(1) | regra_semantica_completo
+17,ambiente_decisao,Ambiente de decisão,Incerteza,Incerteza,1,incerteza(1) | regra_precedencia_incerteza
+17,ponderabilidade,Ponderabilidade,Ponderavel,Ponderavel,1,pesos dos criterios(1) | regra_semantica_ponderavel
+17,usa_pesos,Usa pesos,Sim,Sim,1,regra_semantica_pesos
+17,requer_pesos,Requer pesos,Sim,Sim,1,regra_semantica_pesos
+18,tipo_problema,Tipo de problema,Ordenacao,Ordenacao,1,ordenar(1) | ranking(1) | prioridade(1) | ordenar as alternativas(1) | regra_precedencia_ordenacao
+18,compensatoriedade,Compensatoriedade,NaoCompensatorio,NaoCompensatorio,1,veto(1) | nao admite compensacao(1) | criterio de veto(1) | requisito minimo obrigatorio(1) | regra_regex_nao_compensatorio
+18,tipo_variavel,Tipo de variável,Mista,Mista,1,quantitativos e qualitativos(1) | criterios quantitativos e qualitativos(1) | regra_precedencia_variavel_mista
+18,monotonicidade,Monotonicidade,NaoMonotonico,NaoMonotonico,1,nao monotonico(1) | veto(1) | faixa ideal(1) | ponto otimo(1) | regra_semantica_nao_monotonico
+18,estrutura_decisoria,Estrutura decisória,Grupo,Grupo,1,grupo(1) | grupo de decisores(1)
+18,completude_pref,Completude das preferências,Completo,Completo,1,todas as alternativas(1) | regra_semantica_completo
+18,ambiente_decisao,Ambiente de decisão,Incerteza,Incerteza,1,incerteza(1) | regra_precedencia_incerteza
+18,ponderabilidade,Ponderabilidade,Ponderavel,Ponderavel,1,pesos dos criterios(1) | regra_semantica_ponderavel
+18,usa_pesos,Usa pesos,Sim,Sim,1,regra_semantica_pesos
+18,requer_pesos,Requer pesos,Sim,Sim,1,regra_semantica_pesos
